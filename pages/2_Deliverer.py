@@ -6,7 +6,7 @@ from utilities import (clean_code, side_bar_deliverer_config,
 
 st.set_page_config(page_title='Deliverer Dashboard', layout='wide')
 
-df = pd.read_csv('../ftc_python/dataset/_train.csv')
+df = pd.read_csv('dataset/_train.csv')
 
 df1 = clean_code(df)
 
