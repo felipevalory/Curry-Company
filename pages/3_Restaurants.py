@@ -9,7 +9,7 @@ from utilities import (clean_code, side_bar_restaurants_config,
 
 st.set_page_config(page_title='Restaurant Dashboard', layout='wide')
 
-df = pd.read_csv('../ftc_python/dataset/_train.csv')
+df = pd.read_csv('dataset/_train.csv')
 
 df1 = clean_code(df)
 
