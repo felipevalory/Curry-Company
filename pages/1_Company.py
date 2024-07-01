@@ -6,7 +6,7 @@ from utilities import (clean_code, side_bar_company_config, order_by_day,
 
 st.set_page_config(page_title='Company Dashboard', layout='wide')
 
-df = pd.read_csv('../dataset/_train.csv')
+df = pd.read_csv('dataset/_train.csv')
 
 df1 = clean_code(df)
 
